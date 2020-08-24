@@ -1,5 +1,6 @@
 # RubyMinesweeper
 
+###### Run `bundle install` in terminal to install required gem (colorize)
 ###### Run `minesweeper.rb` to play the game
 
 ### Features
