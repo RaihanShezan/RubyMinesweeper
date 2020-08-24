@@ -1,0 +1,858 @@
+--- !ruby/object:Game
+board: !ruby/object:Board
+  board:
+  - - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: "*"
+      is_bomb: true
+      revealed: false
+      flagged: true
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+  - - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 2
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+  - - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: "*"
+      is_bomb: true
+      revealed: false
+      flagged: true
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+  - - !ruby/object:Cell
+      value: 2
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 2
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: "*"
+      is_bomb: true
+      revealed: false
+      flagged: true
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+  - - !ruby/object:Cell
+      value: "*"
+      is_bomb: true
+      revealed: false
+      flagged: true
+      selected: false
+    - !ruby/object:Cell
+      value: 3
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+  - - !ruby/object:Cell
+      value: "*"
+      is_bomb: true
+      revealed: false
+      flagged: true
+      selected: false
+    - !ruby/object:Cell
+      value: "*"
+      is_bomb: true
+      revealed: false
+      flagged: true
+      selected: false
+    - !ruby/object:Cell
+      value: 2
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+  - - !ruby/object:Cell
+      value: 2
+      is_bomb: false
+      revealed: false
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 3
+      is_bomb: false
+      revealed: false
+      flagged: false
+      selected: true
+    - !ruby/object:Cell
+      value: "*"
+      is_bomb: true
+      revealed: false
+      flagged: true
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: "*"
+      is_bomb: true
+      revealed: false
+      flagged: true
+      selected: false
+  - - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: false
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 2
+      is_bomb: false
+      revealed: false
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 2
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+  - - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: false
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: "*"
+      is_bomb: true
+      revealed: false
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 1
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+    - !ruby/object:Cell
+      value: 0
+      is_bomb: false
+      revealed: true
+      flagged: false
+      selected: false
+  total_bombs: 9
+  size: 9
+  non_bombs:
+  - - 0
+    - 0
+  - - 0
+    - 1
+  - - 0
+    - 2
+  - - 0
+    - 4
+  - - 0
+    - 5
+  - - 0
+    - 6
+  - - 0
+    - 7
+  - - 0
+    - 8
+  - - 1
+    - 0
+  - - 1
+    - 1
+  - - 1
+    - 2
+  - - 1
+    - 3
+  - - 1
+    - 4
+  - - 1
+    - 5
+  - - 1
+    - 6
+  - - 1
+    - 7
+  - - 1
+    - 8
+  - - 2
+    - 0
+  - - 2
+    - 2
+  - - 2
+    - 3
+  - - 2
+    - 4
+  - - 2
+    - 5
+  - - 2
+    - 6
+  - - 2
+    - 7
+  - - 2
+    - 8
+  - - 3
+    - 0
+  - - 3
+    - 1
+  - - 3
+    - 2
+  - - 3
+    - 3
+  - - 3
+    - 4
+  - - 3
+    - 5
+  - - 3
+    - 7
+  - - 3
+    - 8
+  - - 4
+    - 1
+  - - 4
+    - 2
+  - - 4
+    - 3
+  - - 4
+    - 4
+  - - 4
+    - 5
+  - - 4
+    - 6
+  - - 4
+    - 7
+  - - 4
+    - 8
+  - - 5
+    - 2
+  - - 5
+    - 3
+  - - 5
+    - 4
+  - - 5
+    - 5
+  - - 5
+    - 6
+  - - 5
+    - 7
+  - - 5
+    - 8
+  - - 6
+    - 0
+  - - 6
+    - 1
+  - - 6
+    - 3
+  - - 6
+    - 4
+  - - 6
+    - 5
+  - - 6
+    - 6
+  - - 6
+    - 7
+  - - 7
+    - 0
+  - - 7
+    - 1
+  - - 7
+    - 2
+  - - 7
+    - 3
+  - - 7
+    - 4
+  - - 7
+    - 5
+  - - 7
+    - 6
+  - - 7
+    - 7
+  - - 7
+    - 8
+  - - 8
+    - 0
+  - - 8
+    - 2
+  - - 8
+    - 3
+  - - 8
+    - 4
+  - - 8
+    - 5
+  - - 8
+    - 6
+  - - 8
+    - 7
+  - - 8
+    - 8
+  bomb_positions:
+  - - 5
+    - 1
+  - - 0
+    - 3
+  - - 5
+    - 0
+  - - 3
+    - 6
+  - - 6
+    - 8
+  - - 6
+    - 2
+  - - 2
+    - 1
+  - - 8
+    - 1
+  - - 4
+    - 0
+  bomb_revealed: false
+  revealed_positions: !ruby/object:Set
+    hash:
+      ? &1
+      - 6
+      - 1
+      : true
+      *1: true
+      ? - 4
+        - 4
+      : true
+      ? - 3
+        - 3
+      : true
+      ? - 2
+        - 2
+      : true
+      ? - 2
+        - 3
+      : true
+      ? - 1
+        - 2
+      : true
+      ? - 1
+        - 3
+      : true
+      ? - 1
+        - 4
+      : true
+      ? - 2
+        - 4
+      : true
+      ? - 1
+        - 5
+      : true
+      ? - 0
+        - 4
+      : true
+      ? - 0
+        - 5
+      : true
+      ? - 0
+        - 6
+      : true
+      ? - 0
+        - 7
+      : true
+      ? - 0
+        - 8
+      : true
+      ? - 1
+        - 7
+      : true
+      ? - 1
+        - 6
+      : true
+      ? - 2
+        - 5
+      : true
+      ? - 2
+        - 6
+      : true
+      ? - 2
+        - 7
+      : true
+      ? - 1
+        - 8
+      : true
+      ? - 2
+        - 8
+      : true
+      ? - 3
+        - 7
+      : true
+      ? - 3
+        - 8
+      : true
+      ? - 4
+        - 7
+      : true
+      ? - 4
+        - 8
+      : true
+      ? - 5
+        - 7
+      : true
+      ? - 5
+        - 8
+      : true
+      ? - 3
+        - 4
+      : true
+      ? - 3
+        - 5
+      : true
+      ? - 4
+        - 3
+      : true
+      ? - 3
+        - 2
+      : true
+      ? - 4
+        - 2
+      : true
+      ? - 5
+        - 2
+      : true
+      ? - 5
+        - 3
+      : true
+      ? - 5
+        - 4
+      : true
+      ? - 4
+        - 5
+      : true
+      ? - 6
+        - 3
+      : true
+      ? - 6
+        - 4
+      : true
+      ? - 6
+        - 5
+      : true
+      ? - 5
+        - 6
+      : true
+      ? - 4
+        - 6
+      : true
+      ? - 6
+        - 6
+      : true
+      ? - 6
+        - 7
+      : true
+      ? - 7
+        - 5
+      : true
+      ? - 7
+        - 4
+      : true
+      ? - 7
+        - 3
+      : true
+      ? - 8
+        - 3
+      : true
+      ? - 7
+        - 2
+      : true
+      ? - 8
+        - 2
+      : true
+      ? - 8
+        - 4
+      : true
+      ? - 8
+        - 5
+      : true
+      ? - 7
+        - 6
+      : true
+      ? - 7
+        - 7
+      : true
+      ? - 8
+        - 6
+      : true
+      ? - 8
+        - 7
+      : true
+      ? - 7
+        - 8
+      : true
+      ? - 8
+        - 8
+      : true
+      *1: true
+      *1: true
+      ? - 0
+        - 0
+      : true
+      ? - 1
+        - 0
+      : true
+      ? - 1
+        - 1
+      : true
+      ? - 0
+        - 2
+      : true
+      *1: true
+      *1: true
+      *1: true
+      *1: true
+difficulty: 1
+size: 9
+player_name: shezan
+attempts: 75
+elapsed: 45.77682420000201
+cursor_pos: *1
