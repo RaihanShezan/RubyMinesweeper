@@ -73,7 +73,7 @@ class Game
         when "\r" then @board.reveal_cell(@cursor_pos)
         when " " then @board.flag_cell(@cursor_pos)
         when "\177" then @board.unflag_cell(@cursor_pos)
-        when "\e" then exit
+        when "\e" then exit 101
         else 
             puts "#{cmd.inspect} is not a valid key"
             sleep 2 

@@ -17,15 +17,17 @@ class Minesweeper
                 g = Game.new(player_name, *difficulty)
             end
             g.play
-        rescue SystemExit
-            system 'clear'
-            until cmd == 'Y' || cmd == 'N'
-                print "Do you want to save the game? (Y/N) > "
-                cmd = gets.chomp.upcase
-            end
-            case cmd
-            when 'Y' then save_game(player_name, g)                
-            when 'N' then print "\nGame closed before completion\n\n"
+        rescue SystemExit => e
+            if e.status == 101
+                system 'clear'
+                until cmd == 'Y' || cmd == 'N'
+                    print "Do you want to save the game? (Y/N) > "
+                    cmd = gets.chomp.upcase
+                end
+                case cmd
+                when 'Y' then save_game(player_name, g)                
+                when 'N' then print "\nGame closed before completion\n\n"
+                end
             end
         end
     end
